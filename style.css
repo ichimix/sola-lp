@@ -13,6 +13,19 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+/* スクリーンリーダー専用クラス（視覚的に非表示、アクセシビリティ用） */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 /* コンテナ */
 .container {
     max-width: 1200px;
@@ -84,7 +97,8 @@ header {
     margin-right: 0;
     background-color: #fff;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
+    padding-bottom: 60px;
 }
 
 .fv-bg {
@@ -100,6 +114,7 @@ header {
 .fv-content {
     position: relative;
     z-index: 1;
+    display: none;
 }
 
 /* PC版：フルブリード化とアスペクト比を調整 */
@@ -111,23 +126,24 @@ header {
     
     .fv-bg {
         background-image: url('fv-campaign-3promo.png');
-        background-size: cover;
-        aspect-ratio: 16 / 9;
+        background-size: contain;
+        aspect-ratio: 4 / 5;
     }
     
     .fv-cta {
-        width: 100vw;
-        margin-left: calc(50% - 50vw);
+        bottom: 0px;
     }
 }
 
 .fv-cta {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
     width: 100%;
     text-align: center;
-    padding: 0 20px 16px;
-    padding-bottom: calc(16px + env(safe-area-inset-bottom));
-    background-color: #fff;
-    margin-top: clamp(24px, 5vw, 48px);
+    padding: 0 20px;
+    z-index: 10;
 }
 
 .fv-cta a {
@@ -384,20 +400,11 @@ header {
         aspect-ratio: 4 / 5;
     }
 
-    .fv-cta {
-        padding: 0 20px 16px;
-        padding-bottom: calc(16px + env(safe-area-inset-bottom));
-        margin-top: 0;
-    }
 
     .fv-cta-image {
         max-width: 100%;
     }
 
-    /* キャンペーンセクションとCTAの間を詰める */
-    #campaigns {
-        margin-top: -120px !important;
-    }
 
     /* SP：スタジオ紹介画像を1枚ずつ縦に大きく表示 */
     .studio-photo-grid {
@@ -428,7 +435,7 @@ header {
 #campaigns {
     background-color: #fff;
     padding: 100px 40px;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .campaign-section-title {
@@ -1090,6 +1097,12 @@ header {
     padding: 30px;
     margin: 30px 0;
     background-color: #fff5e6;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.trial-benefit-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
 }
 
 .trial-benefit-plan {
@@ -1189,11 +1202,13 @@ header {
 
 .price-plan-row {
     border-bottom: 1px solid #eee;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .price-plan-row:hover {
     background-color: #fafafa;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .price-plan-row:last-child {
@@ -1395,6 +1410,12 @@ header {
         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
         margin-bottom: 24px;
         overflow: hidden;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .price-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
     }
 
     .price-card:last-child {
@@ -2063,6 +2084,12 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     border-radius: 12px;
     padding: 40px 30px;
     box-shadow: 0 4px 15px rgba(212, 165, 116, 0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.review-item .review-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
 }
 
 /* レビュー上部：総合評価 */
