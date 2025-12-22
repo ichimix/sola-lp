@@ -1635,13 +1635,9 @@ header {
         margin-top: -320px !important;
     }
 
-    /* SP：ACCESSセクションのスタジオ間の距離を222px近づける */
+    /* SP：ACCESSセクションのスタジオ間の距離を調整 */
     .access-wrapper {
-        gap: 0 !important;
-    }
-
-    .access-card:first-child {
-        margin-bottom: -162px !important;
+        gap: 40px !important;
     }
 
     /* Q&A質問文のフォントサイズ調整（SPのみ） */
