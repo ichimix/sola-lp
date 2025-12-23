@@ -1,0 +1,28 @@
+$xsmall: "only screen and ( max-width:375px )";
+$small: "only screen and ( max-width:559px )";
+$middle: "only screen and ( max-width:768px )";
+$middle_over: "only screen and ( min-width:769px )";
+$middle_large: "only screen and (min-width:769px) and (max-width:1080px)";
+$large: "only screen and (min-width:1081px)";
+
+$gold: #D09829; // サイトで一番よく使われる色
+$font_color: #000; // 基本のフォントカラー
+
+$font_family: 'Noto Sans JP', sans-serif;
+$font_en: 'Montserrat', sans-serif;
+
+@function _calc($n) {
+  @return calc(#{$n} / var(--lo1) * var(--lo2));
+}
+
+:root {
+  --lo1: 390;
+  --lo2: 100vw;
+}
+
+@media #{$middle_over} {
+  :root {
+    --lo1: 1440;
+    --lo2: 100vw;
+  }
+}

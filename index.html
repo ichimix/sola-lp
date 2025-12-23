@@ -1,745 +1,414 @@
+
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>［体験レッスン500円］名古屋・栄の女性専用岩盤ホットヨガスタジオSola｜都度払い可</title>
-    <link rel="stylesheet" href="style.css">
+	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
 
-    <!-- ヘッダー -->
-    <header>
-        <div class="header-left">
-            <div class="logo">
-                <img src="logo.png" alt="sola">
-            </div>
-            <div class="header-description">名古屋と栄にある<br class="sp-only">岩盤ホットヨガスタジオソラ</div>
-        </div>
-        <button class="menu-button" type="button">MENU</button>
-        <a href="https://page.line.me/yvw5386a?openQrModal=true" class="reservation-button">ご予約</a>
-    </header>
+<title>［体験レッスン500円］名古屋・栄の女性専用岩盤ホットヨガスタジオSola｜都度払い可</title>
 
-    <main>
-    <!-- ① FVセクション -->
-    <section id="fv" class="fv">
-        <div class="fv-bg"></div>
-        <div class="fv-content"></div>
-        <!-- FV直下CTA -->
-        <div class="fv-cta">
-            <a href="https://page.line.me/yvw5386a?openQrModal=true">
-                <img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
-            </a>
-        </div>
-    </section>
+<meta name="description" content="ディスクリプション">
 
-<!-- ② 3大キャンペーンセクション -->
-<!-- 修正履歴: 空の見出しタグを修正（2024-12-10） -->
-<section id="campaigns">
-    <h2 class="campaign-section-title visually-hidden">3大キャンペーン</h2>
+<link rel="stylesheet" href="lib/slick/slick.css">
 
-    <!-- 01 ペア割 -->
-    <article class="campaign-item campaign-01">
-        <header class="campaign-header">
-            <span class="campaign-label">campaign</span>
-            <span class="campaign-number">01</span>
-        </header>
+<link rel="stylesheet" href="https://relaxation-sola.co.jp/wp-content/themes/sola2023/css/top.css">
 
-        <h3 class="campaign-title">ペア割キャンペーン</h3>
+<link rel="stylesheet" href="css/home.css">
 
-        <div class="campaign-content">
-            <div class="campaign-badge">
-                <span class="badge-text">体験当日に</span>
-            </div>
-            <p class="campaign-condition">2人同時入会で</p>
-            <p class="campaign-benefit">
-                2ヶ月無料<span class="exclamation">！</span>
-            </p>
-            <p class="campaign-note">
-                ※キャンペーン適用には条件があります。詳しくはスタッフまで。
-            </p>
-        </div>
-    </article>
+</head>
 
-    <!-- 02 友達紹介 -->
-    <article class="campaign-item campaign-02">
-        <header class="campaign-header">
-            <span class="campaign-label">campaign</span>
-            <span class="campaign-number">02</span>
-        </header>
+<body>
+	<div id="wrapper" class="wrapper">
 
-        <h3 class="campaign-title">友達紹介キャンペーン</h3>
+		<!-- ヘッダー -->
+		<header class="header">
+			<p class="logo"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/logo.png" alt="［体験レッスン500円］名古屋・栄の女性専用岩盤ホットヨガスタジオSola｜都度払い可"></p>
+			<h1>名古屋と栄にある岩盤ホットヨガスタジオ ソラ</h1>
+		</header>
 
-        <div class="campaign-content">
-            <div class="campaign-badge">
-                <span class="badge-text">ご紹介された方は</span>
-            </div>
-            <p class="campaign-condition">体験当日にご入会で</p>
-            <p class="campaign-benefit">
-                1ヶ月無料<span class="exclamation">！</span>
-            </p>
-            <p class="campaign-note">
-                ※紹介者様への特典もご用意しています。
-            </p>
-        </div>
-    </article>
+		<main>
+			<!-- ① FVセクション -->
+			<section class="fv">
+				<figure>
+					<picture>
+						<source srcset="fv-campaign-3promo.png" media="(max-width: 768px)">
+						<img src="fv-campaign-3promo.png" alt="">
+					</picture>
+				</figure>
+				<div class="fv-cta">
+					<a href="https://page.line.me/yvw5386a?openQrModal=true">
+						<img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
+					</a>
+				</div>
+			</section>
 
-    <!-- 03 乗り換え -->
-    <article class="campaign-item campaign-03">
-        <header class="campaign-header">
-            <span class="campaign-label">campaign</span>
-            <span class="campaign-number">03</span>
-        </header>
+			<!-- ② 3大キャンペーンセクション -->
+			<section id="campaigns">
+				<!-- 01 ペア割 -->
+				<article class="campaign-item campaign-01">
+					<header class="campaign-header">
+						<span class="campaign-label">campaign</span>
+						<span class="campaign-number">01</span>
+					</header>
 
-        <h3 class="campaign-title">乗り換えキャンペーン</h3>
+					<h3 class="campaign-title">ペア割キャンペーン</h3>
 
-        <div class="campaign-content">
-            <div class="campaign-badge">
-                <span class="badge-text">他スタジオからの乗り換えで</span>
-            </div>
-            <p class="campaign-condition">月会費がおトクに</p>
-            <p class="campaign-benefit">
-                最大2ヶ月無料<span class="exclamation">！</span>
-            </p>
-            <p class="campaign-note">
-                ※他スタジオの会員証等をご提示ください。
-            </p>
-        </div>
-    </article>
+					<div class="campaign-content">
+						<p class="campaign-badge">
+							<span class="badge-text">体験当日に</span>
+						</p>
+						<p class="campaign-condition">2人同時入会で<strong>2ヶ月無料<span class="exclamation">！</span></strong></p>
+						<p class="campaign-note">
+							※キャンペーン適用には条件があります。<br>詳しくはスタッフまで。
+						</p>
+					</div>
+				</article>
+
+				<!-- 02 友達紹介 -->
+				<article class="campaign-item campaign-02">
+					<header class="campaign-header">
+						<span class="campaign-label">campaign</span>
+						<span class="campaign-number">02</span>
+					</header>
+
+					<h3 class="campaign-title">友達紹介キャンペーン</h3>
+
+					<div class="campaign-content">
+						<div class="campaign-badge">
+							<span class="badge-text">ご紹介された方は</span>
+						</div>
+						<p class="campaign-condition">体験当日にご入会で<strong>1ヶ月無料<span class="exclamation">！</span></strong></p>
+						<p class="campaign-note">
+							※紹介者様への特典もご用意しています。
+						</p>
+					</div>
+				</article>
+
+				<!-- 03 乗り換え -->
+				<article class="campaign-item campaign-03">
+					<header class="campaign-header">
+						<span class="campaign-label">campaign</span>
+						<span class="campaign-number">03</span>
+					</header>
+
+					<h3 class="campaign-title">乗り換えキャンペーン</h3>
+
+					<div class="campaign-content">
+						<div class="campaign-badge">
+							<span class="badge-text">他スタジオからの乗り換えで</span>
+						</div>
+						<p class="campaign-condition">月会費がおトクに<strong>最大2ヶ月無料<span class="exclamation">！</span></strong></p>
+						<p class="campaign-note">
+							※他スタジオの会員証等をご提示ください。
+						</p>
+					</div>
+				</article>
+
+				<div class="between-sections-cta">
+					<a href="https://page.line.me/yvw5386a?openQrModal=true">
+						<img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
+					</a>
+				</div>
+
+			</section>
+
+			<!-- ④ Q&Aセクション -->
+			<section class="qa">
+  <p class="qa-title">キャンペーンについての<br class="sp">Q&A</p>
+  <ul class="qa-list">
+    <li class="anm">
+      <p class="title">勧誘されませんか？</p>
+      <div class="text">
+        <p>無理な勧誘は一切ありません。体のお悩みに寄り添ったカウンセリングを丁寧に行います。</p>
+      </div>
+    </li>
+    <li class="anm">
+      <p class="title">持ち物は必要ですか？</p>
+      <div class="text">
+        <p>ウェア・タオル・ヨガマットなどすべてご用意。手ぶらで安心してご参加いただけます。</p>
+      </div>
+    </li>
+    <li class="anm">
+      <p class="title">予約は取りやすいですか？</p>
+      <div class="text">
+        <p>少人数制＆夜遅い時間のレッスンもあり、仕事帰りでも安心して通えます。</p>
+      </div>
+    </li>
+    <li class="anm">
+      <p class="title">初心者でも大丈夫ですか？</p>
+      <div class="text">
+        <p>会員の多くが初心者スタート。インストラクターが丁寧にサポートします。</p>
+      </div>
+    </li>
+  </ul>
+  <p class="campaign-btn_tebura"><a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/btn_linetebura.png" alt=""></a></p>
 </section>
 
-    <!-- ④ Q&Aセクション -->
-    <section id="faq" class="qa-section">
-        <!-- セクションタイトル -->
-        <h2 class="qa-title">キャンペーンについてのQ&A</h2>
-        
-        <!-- Q&Aリスト -->
-        <dl class="qa-list">
-            <!-- Q&A項目1: 勧誘について -->
-            <dt class="qa-question">
-                <span class="qa-question-text">勧誘されませんか&nbsp;?</span>
-                <span class="qa-icon">
-                    <span class="qa-arrow">▼</span>
-                </span>
-            </dt>
-            <dd class="qa-answer">
-                無理な勧誘は一切ありません。体のお悩みに寄り添ったカウンセリングを丁寧に行います。
-            </dd>
-            
-            <!-- Q&A項目2: 持ち物について -->
-            <dt class="qa-question">
-                <span class="qa-question-text">持ち物は必要ですか&nbsp;?</span>
-                <span class="qa-icon">
-                    <span class="qa-arrow">▼</span>
-                </span>
-            </dt>
-            <dd class="qa-answer">
-                ウェア・タオル・ヨガマットなどすべてご用意。手ぶらで安心してご参加いただけます。
-            </dd>
-            
-            <!-- Q&A項目3: 予約について -->
-            <dt class="qa-question">
-                <span class="qa-question-text">予約は取りやすいですか&nbsp;?</span>
-                <span class="qa-icon">
-                    <span class="qa-arrow">▼</span>
-                </span>
-            </dt>
-            <dd class="qa-answer">
-                少人数制&夜遅い時間のレッスンもあり、仕事帰りでも安心して通えます。
-            </dd>
-            
-            <!-- Q&A項目4: 初心者について -->
-            <dt class="qa-question">
-                <span class="qa-question-text">初心者でも大丈夫ですか&nbsp;?</span>
-                <span class="qa-icon">
-                    <span class="qa-arrow">▼</span>
-                </span>
-            </dt>
-            <dd class="qa-answer">
-                会員の多くが初心者スタート。インストラクターが丁寧にサポートします。
-            </dd>
-        </dl>
-        
-        <!-- CTAセクション -->
-        <div class="qa-cta">
-            <div class="qa-cta-badge">
-                <span class="qa-badge-text">手ぶらで OK!</span>
-            </div>
-            
-            <a href="https://page.line.me/yvw5386a?openQrModal=true" class="qa-cta-button qa-line-button qa-large">
-                LINEで500円<br class="sp-only">体験予約
-            </a>
-        </div>
-    </section>
+			<!-- ⑤ 体験セクション -->
+			<section class="parts-campaign">
+  <h2 class="anm anm--up">体験コース <span>500<em>円</em></span> キャンペーン<br>実施中</h2>
+  <h3 class="anm anm--up">初めての方でも安心</h3>
+  <p class="text-01 anm anm--up">当店は<strong>女性限定の岩盤ホットヨガスタジオ</strong>です。<br>はじめは誰もが初心者からのスタートなので大丈夫。<br>インストラクターが丁寧にサポートいたします。</p>
+  <figure class="anm anm--up"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/teburaset.png" alt="">
+  </figure>
+  <p class="text-02 anm anm--up">・お水　・ウェア　・汗拭きタオル<br>・大判タオル　・ヨガマット　・紙ショーツ　・バスタオル</p>
+  <p class="text-03 anm anm--up"><span>さらに</span>体験当日にご入会いただくと</p>
+  <p class="text-04 anm anm--up"><span>通い放題プラン<br>初月無料！</span></p>
+  <p class="text-05 anm anm--up">銀行のキャッシュカードがあれば<br>体験当日にお手続きが可能です。</p>
+</section>
 
-    <!-- ⑤ 体験セクション -->
-    <section id="trial" class="trial-section">
-        <!-- キャンペーンヘッダー -->
-        <div class="trial-header">
-            <h2 class="trial-title">
-                <span class="trial-title-main line-main">体験コース</span>
-                <span class="trial-title-price line-price">500円</span>
-                <span class="trial-title-campaign line-sub">キャンペーン</span>
-            </h2>
-            <p class="trial-campaign-status">実施中</p>
-        </div>
-        
-        <!-- 初心者向け説明 -->
-        <div class="trial-intro">
-            <h3 class="trial-intro-title">初めての方でも安心</h3>
-            <p class="trial-intro-text">
-                当店は<strong>女性限定の岩盤ホットヨガスタジオ</strong>です。<br>
-                はじめは誰もが初心者からのスタートなので大丈夫。<br>
-                インストラクターが丁寧にサポートいたします。
-            </p>
-        </div>
-        
-        <!-- 手ぶらでOKセクション -->
-        <div class="trial-hands-free-section">
-            <div class="trial-hands-free-badge">
-                <span class="trial-badge-circle">無料</span>
-                <div class="trial-badge-text-group">
-                    <span class="trial-badge-main-text">手ぶらでOK</span>
-                    <span class="trial-badge-sub-text">7点セットつき</span>
-                </div>
-            </div>
-            
-            <!-- アイコン表示 -->
-            <div class="trial-service-icons">
-                <div class="trial-icon-item">
-                    <!-- 水ボトルアイコン -->
-                </div>
-                <div class="trial-icon-item">
-                    <!-- ウェアアイコン -->
-                </div>
-                <div class="trial-icon-item">
-                    <!-- タオルアイコン -->
-                </div>
-                <div class="trial-icon-item">
-                    <!-- ヨガマットアイコン -->
-                </div>
-                <div class="trial-icon-item">
-                    <!-- タオルスタックアイコン -->
-                </div>
-            </div>
-            
-            <!-- 提供アイテムリスト -->
-            <ul class="trial-service-items-list">
-                <li>・お水・ウェア ・汗拭きタオル</li>
-                <li>・大判タオル・ヨガマット ・紙ショーツ・バスタオル</li>
-            </ul>
-        </div>
-        
-        <!-- 追加特典セクション -->
-        <div class="trial-additional-benefit">
-            <p class="trial-benefit-intro">さらに</p>
-            <p class="trial-benefit-condition">体験当日にご入会いただくと</p>
-            
-            <!-- 特典ボックス -->
-            <div class="trial-benefit-box">
-                <p class="trial-benefit-plan">通い放題プラン</p>
-                <p class="trial-benefit-free">初月無料<span class="trial-exclamation">!</span></p>
-            </div>
-            
-            <p class="trial-benefit-note">
-                銀行のキャッシュカードがあれば<br>
-                体験当日にお手続きが可能です。
-            </p>
-        </div>
-    </section>
+			<!-- ⑥ 料金表セクション -->
+			<section class="price">
+  <p class="price-title anm anm--up">Subscription Plan</p>
+  <p class="price-title-jp anm anm--up">月額通い放題</p>
 
-    <!-- ⑥ 料金表セクション -->
-    <section id="pricing" class="price-section">
-        <!-- セクションタイトル -->
-        <div class="price-header">
-            <h2 class="price-title">Subscription Plan</h2>
-            <p class="price-subtitle">月額通い放題</p>
-        </div>
-        
-        <!-- 料金表 -->
-        <div class="price-table-wrapper">
-            <table class="price-table">
-                <!-- テーブルヘッダー -->
-                <thead>
-                    <tr>
-                        <th>会員区分</th>
-                        <th>価格</th>
-                        <th>通える回数</th>
-                        <th>会員特典</th>
-                    </tr>
-                </thead>
-                
-                <!-- テーブルボディ -->
-                <tbody>
-                    <!-- ゴールドフリープラン -->
-                    <tr class="price-plan-row price-plan-gold">
-                        <td class="price-plan-name">
-                            <span class="price-plan-label">ゴールドフリー</span>
-                        </td>
-                        <td class="price-plan-price">
-                            <span class="price-amount">¥17,410</span>
-                            <span class="price-tax">(19,150税込)</span>
-                        </td>
-                        <td class="price-plan-visits">通い放題</td>
-                        <td class="price-plan-benefits">
-                            <ul class="price-benefits-list">
-                                <li>1日何回でも参加可</li>
-                                <li>手ぶら (1日1回となります) 水、フェイスタオル、バスタオル、ヨガラグタオル、紙ショーツ、ウェア上下</li>
-                                <li>姉妹店JAPANYOGA（エアリアルヨガ受け放題）</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    
-                    <!-- シルバーフリープラン -->
-                    <tr class="price-plan-row price-plan-silver">
-                        <td class="price-plan-name">
-                            <div class="price-plan-name-row">
-                                <span class="price-plan-label">シルバーフリー</span>
-                                <div class="price-popular-badge">
-                                    <span class="price-badge-icon" aria-hidden="true"></span>
-                                    <span class="price-badge-text">人気 NO.1</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="price-plan-price">
-                            <span class="price-amount">¥12,860</span>
-                            <span class="price-tax">(14,150税込)</span>
-                        </td>
-                        <td class="price-plan-visits">通い放題</td>
-                        <td class="price-plan-benefits">
-                            <ul class="price-benefits-list">
-                                <li>1日2レッスン参加可</li>
-                                <li>姉妹店JAPANYOGA（エアリアルヨガ受け放題）</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    
-                    <!-- ブロンズフリープラン -->
-                    <tr class="price-plan-row price-plan-bronze">
-                        <td class="price-plan-name">
-                            <span class="price-plan-label">ブロンズフリー</span>
-                        </td>
-                        <td class="price-plan-price">
-                            <span class="price-amount">¥10,000</span>
-                            <span class="price-tax">(11,000税込)</span>
-                        </td>
-                        <td class="price-plan-visits">通い放題</td>
-                        <td class="price-plan-benefits">
-                            <ul class="price-benefits-list">
-                                <li>1日1レッスン参加可</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <!-- SP用料金カード（スマホのみ表示） -->
-        <div class="price-card-list">
-            <!-- ゴールドフリープラン -->
-            <div class="price-card price-card-gold">
-                <div class="price-card-header">
-                    <h3 class="price-card-name">ゴールドフリー</h3>
-                </div>
-                <div class="price-card-body">
-                    <div class="price-card-price">
-                        <span class="price-card-amount">¥17,410</span>
-                        <span class="price-card-tax">(19,150税込)</span>
-                    </div>
-                    <div class="price-card-visits">通い放題</div>
-                    <div class="price-card-benefits">
-                        <ul class="price-card-benefits-list">
-                            <li>1日何回でも参加可</li>
-                            <li>手ぶら (1日1回となります) 水、フェイスタオル、バスタオル、ヨガラグタオル、紙ショーツ、ウェア上下</li>
-                            <li>姉妹店JAPANYOGA（エアリアルヨガ受け放題）</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- シルバーフリープラン -->
-            <div class="price-card price-card-silver">
-                <div class="price-card-header">
-                    <h3 class="price-card-name">
-                        <span>シルバーフリー</span>
-                        <span class="price-card-badge">人気 NO.1</span>
-                    </h3>
-                </div>
-                <div class="price-card-body">
-                    <div class="price-card-price">
-                        <span class="price-card-amount">¥12,860</span>
-                        <span class="price-card-tax">(14,150税込)</span>
-                    </div>
-                    <div class="price-card-visits">通い放題</div>
-                    <div class="price-card-benefits">
-                        <ul class="price-card-benefits-list">
-                            <li>1日2レッスン参加可</li>
-                            <li>姉妹店JAPANYOGA（エアリアルヨガ受け放題）</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- ブロンズフリープラン -->
-            <div class="price-card price-card-bronze">
-                <div class="price-card-header">
-                    <h3 class="price-card-name">ブロンズフリー</h3>
-                </div>
-                <div class="price-card-body">
-                    <div class="price-card-price">
-                        <span class="price-card-amount">¥10,000</span>
-                        <span class="price-card-tax">(11,000税込)</span>
-                    </div>
-                    <div class="price-card-visits">通い放題</div>
-                    <div class="price-card-benefits">
-                        <ul class="price-card-benefits-list">
-                            <li>1日1レッスン参加可</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- キャンペーン特典ボックス -->
-        <div class="price-campaign-benefit-box">
-            <p class="price-benefit-condition">
-                これらの通い放題プランが体験当日にご入会で
-            </p>
-            <h3 class="price-benefit-title">1ヶ月無料<span class="price-exclamation">!!</span></h3>
-        </div>
-        
-        <!-- 体験キャンペーン情報 -->
-        <div class="price-trial-campaign-box">
-            <div class="price-campaign-decorative-text price-decorative-top">
-                <span class="price-handwriting">レッツ芯熱体験!!</span>
-            </div>
-            
-            <h2 class="price-campaign-main-title">
-                <span class="price-title-text line-main">体験コース</span>
-                <span class="price-title-price-gold line-price">500円</span>
-                <span class="price-title-text line-sub">キャンペーン</span>
-            </h2>
-            
-            <p class="price-campaign-status">実施中</p>
-            
-            <div class="price-campaign-decorative-text price-decorative-bottom">
-                <span class="price-handwriting">手ぶらでOK!</span>
-            </div>
-            
-            <!-- CTAボタン -->
-            <div class="price-cta">
-                <a href="https://page.line.me/yvw5386a?openQrModal=true" class="price-cta-button price-line-cta-button">
-                    お申し込みは<br class="sp-only">LINEから！
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ⑦ スタジオ紹介セクション -->
-    <section id="studio" class="studio-section">
-        <!-- メインビジュアルエリア -->
-        <div class="studio-hero">
-            <!-- 上部テキストコンテンツ -->
-            <div class="studio-hero-text">
-                <h2 class="studio-main-title">
-                    <span class="studio-title-line-1">GANABAN</span>
-                    <span class="studio-title-line-2">HOT YOGA</span>
-                </h2>
-                <h3 class="studio-subtitle">岩盤ホットヨガ</h3>
-                <p class="studio-catchphrase">
-                    昨日の私よりも少し素敵な<br>
-                    私に出会うためのホットな癒し空間
-                </p>
-            </div>
-        </div>
-        
-        <!-- スタジオ写真セクション -->
-        <div class="studio-photos">
-            <!-- Sola 名駅スタジオ -->
-            <div class="studio-photo-group">
-                <h3 class="studio-photo-title">Sola 名駅スタジオ</h3>
-                <div class="studio-photo-grid">
-                    <img src="studio-meieki-main-floor.jpg" alt="名駅スタジオ メインフロア" class="studio-photo">
-                    <img src="studio-meieki-powder-room.jpg" alt="名駅スタジオ パウダールーム" class="studio-photo">
-                    <img src="studio-meieki-shower-room.jpg" alt="名駅スタジオ シャワールーム" class="studio-photo">
-                </div>
-            </div>
-            
-            <!-- Sola 栄スタジオ -->
-            <div class="studio-photo-group">
-                <h3 class="studio-photo-title">Sola 栄スタジオ</h3>
-                <div class="studio-photo-grid">
-                    <img src="studio-sakae-main-floor.jpg" alt="栄スタジオ メインフロア" class="studio-photo">
-                    <img src="studio-sakae-powder-room.jpg" alt="栄スタジオ パウダールーム" class="studio-photo">
-                    <img src="studio-sakae-locker-room.jpg" alt="栄スタジオ ロッカールーム" class="studio-photo">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ⑧ 4カラムセクション -->
-    <section id="info-section" class="info-section">
-        <div class="info-grid">
-            <!-- カラム1: はじめての方へ -->
-            <article class="info-card info-card-1">
-                <a href="https://relaxation-sola.co.jp/biginners_info/" class="info-card-link">
-                    <div class="info-card-image">
-                        <img src="https://placehold.co/500x700" alt="木のポーズをしている女性" class="info-card-bg-image">
-                    </div>
-                    <div class="info-card-overlay">
-                        <h3 class="info-card-title">はじめての方へ</h3>
-                        <p class="info-card-text">
-                            当店は女性限定の岩盤ホットヨガ・ヨガスタジオです。ご利用されるほとんどの方が初心者からのスタートになりますので、安心してレッスンを受けていただけます。インストラクターがサポートしますので、ご自分のペースで受講できます。
-                        </p>
-                        <div class="info-card-nav">
-                            <span class="info-nav-arrow">→</span>
-                        </div>
-                    </div>
-                </a>
-            </article>
-            
-            <!-- カラム2: PRICE -->
-            <article class="info-card info-card-2">
-                <a href="https://relaxation-sola.co.jp/price/" class="info-card-link">
-                    <div class="info-card-image">
-                        <img src="https://placehold.co/500x700" alt="ヨガのポーズをしている複数の人" class="info-card-bg-image">
-                    </div>
-                    <div class="info-card-overlay">
-                        <h3 class="info-card-title">PRICE</h3>
-                        <p class="info-card-text">
-                            名古屋・栄の岩盤ホットヨガ Solaの提供する様々なサービスのご利用料金はこちらのページからご確認いただけます。名古屋スタジオ、栄スタジオは共通価格です。都度払いコースもご用意しております。価格が安く人気。
-                        </p>
-                        <div class="info-card-nav">
-                            <span class="info-nav-arrow">→</span>
-                        </div>
-                    </div>
-                </a>
-            </article>
-            
-            <!-- カラム3: SCHEDULE / PROGRAM -->
-            <article class="info-card info-card-3">
-                <a href="https://relaxation-sola.co.jp/yoga_schedule/" class="info-card-link">
-                    <div class="info-card-image">
-                        <img src="https://placehold.co/500x700" alt="瞑想ポーズをしている人" class="info-card-bg-image">
-                    </div>
-                    <div class="info-card-overlay">
-                        <h3 class="info-card-title">SCHEDULE / PROGRAM</h3>
-                        <p class="info-card-text">
-                            初めての方にも経験者にもご満足いただけるよう豊富に岩盤ホットヨガ<br>
-                            クラスを準備しております。<br>
-                            目的や体調によってお選びください。
-                        </p>
-                        <div class="info-card-nav">
-                            <span class="info-nav-arrow">→</span>
-                        </div>
-                    </div>
-                </a>
-            </article>
-            
-            <!-- カラム4: 岩盤ホットヨガ -->
-            <article class="info-card info-card-4">
-                <a href="https://relaxation-sola.co.jp/biginners_info/#ganban" class="info-card-link">
-                    <div class="info-card-image">
-                        <img src="https://placehold.co/500x700" alt="岩盤ホットヨガスタジオの内部" class="info-card-bg-image">
-                    </div>
-                    <div class="info-card-overlay">
-                        <h3 class="info-card-title">岩盤ホットヨガ</h3>
-                        <p class="info-card-text">
-                            エアコンや加湿器で暖めるホットヨガと違い、岩盤の上で行う岩盤ホットヨガは体にやさしく、遠赤外線とマイナスイオンにより体を芯からあたため大量の汗とともに老廃物を排出します。
-                        </p>
-                        <div class="info-card-nav">
-                            <span class="info-nav-arrow">→</span>
-                        </div>
-                    </div>
-                </a>
-            </article>
-        </div>
-    </section>
-
-    <!-- ⑨ レビューセクション -->
-    <section id="reviews" class="review-section">
-        <!-- セクションタイトル -->
-        <h2 class="review-section-title">Review</h2>
-        
-        <!-- レビューリスト -->
-        <div class="review-list">
-            <!-- レビュー1 -->
-            <article class="review-item">
-                <div class="review-box">
-                    <!-- 総合評価 -->
-                    <div class="review-header">
-                        <div class="review-overall-rating">
-                            <span class="review-rating-label">総合</span>
-                            <span class="review-rating-value">4</span>
-                        </div>
-                        <div class="review-star-rating" aria-label="4 out of 5 stars">
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-outline">★</span>
-                        </div>
-                    </div>
-                    
-                    <div class="review-divider"></div>
-                    
-                    <!-- 詳細評価 -->
-                    <div class="review-detail-ratings">
-                        <span class="review-detail-item">雰囲気 4</span>
-                        <span class="review-detail-item">接客サービス 5</span>
-                        <span class="review-detail-item">技術・仕上がり 4</span>
-                        <span class="review-detail-item">メニュー・料金 4</span>
-                    </div>
-                    
-                    <div class="review-divider"></div>
-                    
-                    <!-- レビュアー情報 -->
-                    <p class="review-reviewer">女性/40代</p>
-                    
-                    <!-- レビューテキスト -->
-                    <p class="review-text">
-                        地下街の出口からすぐで便利だし、夜遅くのレッスンもあるので、仕事帰りにも通いやすそうです。シャワールームがたくさんあるので、争奪戦にならず、安心。
-                    </p>
-                    
-                    <!-- 投稿日 -->
-                    <p class="review-date">[投稿日] 2024年2月21日</p>
-                </div>
-            </article>
-            
-            <!-- レビュー2 -->
-            <article class="review-item">
-                <div class="review-box">
-                    <!-- 総合評価 -->
-                    <div class="review-header">
-                        <div class="review-overall-rating">
-                            <span class="review-rating-label">総合</span>
-                            <span class="review-rating-value">5</span>
-                        </div>
-                        <div class="review-star-rating" aria-label="5 out of 5 stars">
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                        </div>
-                    </div>
-                    
-                    <div class="review-divider"></div>
-                    
-                    <!-- 詳細評価 -->
-                    <div class="review-detail-ratings">
-                        <span class="review-detail-item">雰囲気 5</span>
-                        <span class="review-detail-item">接客サービス 5</span>
-                        <span class="review-detail-item">技術・仕上がり 5</span>
-                        <span class="review-detail-item">メニュー・料金 5</span>
-                    </div>
-                    
-                    <div class="review-divider"></div>
-                    
-                    <!-- レビュアー情報 -->
-                    <p class="review-reviewer">女性/20代前半</p>
-                    
-                    <!-- レビューテキスト -->
-                    <p class="review-text">
-                        初めてのホットヨガでしたが、楽しんで行うことができました。普段運動をしないので、たくさん汗をかいてスッキリすることができたと思います。体験させていただきありがとうございました。
-                    </p>
-                    
-                    <!-- 投稿日 -->
-                    <p class="review-date">[投稿日] 2024年2月19日</p>
-                </div>
-            </article>
-            
-            <!-- レビュー3 -->
-            <article class="review-item">
-                <div class="review-box">
-                    <!-- 総合評価 -->
-                    <div class="review-header">
-                        <div class="review-overall-rating">
-                            <span class="review-rating-label">総合</span>
-                            <span class="review-rating-value">5</span>
-                        </div>
-                        <div class="review-star-rating" aria-label="5 out of 5 stars">
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                            <span class="review-star review-star-filled">★</span>
-                        </div>
-                    </div>
-                    
-                    <div class="review-divider"></div>
-                    
-                    <!-- 詳細評価 -->
-                    <div class="review-detail-ratings">
-                        <span class="review-detail-item">雰囲気 5</span>
-                        <span class="review-detail-item">接客サービス 5</span>
-                        <span class="review-detail-item">技術・仕上がり 5</span>
-                        <span class="review-detail-item">メニュー・料金 5</span>
-                    </div>
-                    
-                    <div class="review-divider"></div>
-                    
-                    <!-- レビュアー情報 -->
-                    <p class="review-reviewer">女性/30代</p>
-                    
-                    <!-- レビューテキスト -->
-                    <p class="review-text">
-                        初めての岩盤浴ヨガでしたが暑すぎることもなく気持ちよく体験できました。インストラクターの方の指導も聞き取りやすく、わかりやすくてあっという間の時間でした。無理な勧誘もなかったです。
-                    </p>
-                    
-                    <!-- 投稿日 -->
-                    <p class="review-date">[投稿日] 2024年2月18日</p>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- レビュー → ACCESS 間CTA（FV直下CTAの流用） -->
-    <div class="between-sections-cta">
-        <a href="https://page.line.me/yvw5386a?openQrModal=true">
-            <img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
-        </a>
+  <div class="price-block anm anm--up">
+    <div class="price-head">
+      <p>会員区分</p>
+      <p>価格</p>
+      <p>通える回数</p>
+      <p>会員特典</p>
     </div>
-    </main>
-
-    <!-- ⑩ フッター（ACCESS）セクション -->
-    <footer id="access" class="access-section">
-
-    <h2 class="access-title">ACCESS</h2>
-
-    <div class="access-wrapper">
-
-        <!-- 名駅スタジオ -->
-        <article class="access-card">
-            <h3 class="access-studio-name">Sola 名駅スタジオ</h3>
-
-            <p class="access-address">
-                〒450-0002<br>
-                名古屋市中村区名駅3-23-7 VIERRA Nagoya Meieki 7F
-            </p>
-
-            <a href="https://maps.app.goo.gl/vQdTceQQ7ZraeNiq8" class="access-map-btn">MAP</a>
-
-            <p class="access-holiday">定休日　月曜日</p>
-        </article>
-
-        <!-- 栄スタジオ -->
-        <article class="access-card">
-            <h3 class="access-studio-name">Sola 栄スタジオ</h3>
-
-            <p class="access-address">
-                〒461-0005<br>
-                名古屋市東区東桜1-10-9 栄プラザビル2F
-            </p>
-
-            <a href="https://maps.app.goo.gl/hkmxmpTBGSHAPi5G9" class="access-map-btn">MAP</a>
-
-            <p class="access-holiday">定休日　金曜日</p>
-        </article>
-
+    <div class="plan">
+      <p class="plan-title gold">ゴールドフリー</p>
+      <div class="plan-line">
+        <p class="plan-exp">価格</p>
+        <p class="plan-price">¥17,410 <span>(19,150<em>税込</em>)</span></p>
+      </div>
+      <div class="plan-line">
+        <p class="plan-exp">通える回数</p>
+        <p class="plan-number">通い放題</p>
+      </div>
+      <div class="plan-line">
+        <p class="plan-exp">会員特典</p>
+        <ul class="plan-list">
+          <li>1日何回でも参加可</li>
+          <li>手ぶら <span>(1日1回となります)</span><br>
+            <span>水.フェイスタオル,バスタオル,ヨガラグタオル,紙ショーツ,ウェア上下</span>
+          </li>
+          <li>姉妹店JAPANYOGA<br>
+            <span>（エアリアルヨガ受け放題）</span>
+          </li>
+        </ul>
+      </div>
     </div>
 
+    <div class="plan">
+      <p class="no1"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/no1.png" alt=""></p>
+      <p class="plan-title silver">シルバーフリー</p>
+      <div class="plan-line">
+        <p class="plan-exp">価格</p>
+        <p class="plan-price">¥12,860 <span>(14,150<em>税込</em>)</span></p>
+      </div>
+      <div class="plan-line">
+        <p class="plan-exp">通える回数</p>
+        <p class="plan-price">通い放題</p>
+      </div>
+      <div class="plan-line">
+        <p class="plan-exp">会員特典</p>
+        <ul class="plan-list">
+          <li>1日2レッスン参加可</li>
+          <li>姉妹店JAPANYOGA<br>
+            <span>（エアリアルヨガ受け放題）</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="plan">
+      <p class="plan-title bronze">ブロンズフリー</p>
+      <div class="plan-line">
+        <p class="plan-exp">価格</p>
+        <p class="plan-price">¥10,000 <span>(11,000<em>税込</em>)</span></p>
+      </div>
+      <div class="plan-line">
+        <p class="plan-exp">通える回数</p>
+        <p class="plan-price">通い放題</p>
+      </div>
+      <div class="plan-line">
+        <p class="plan-exp">会員特典</p>
+        <ul class="plan-list">
+          <li>1日1レッスン参加可</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="price-text">
+    <p class="text anm anm--up">これらの通い放題プランが体験当日にご入会で<br><span>1ヶ月無料!!</span></p>
+    <p class="btn anm anm--up"><a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/camp_btn.png"></a></p>
+  </div>
+</section>
+
+			<!-- ⑦ スタジオ紹介セクション -->
+			<section class="ganban">
+  <p class="ganban-title en anm anm--up">GANABAN<br>HOT YOGA</p>
+  <h2 class="ganban-title-jp anm anm--up">岩盤ホットヨガ</h2>
+  <p class="ganban-catch anm anm--up">昨日の私よりも少し素敵な<br>
+    私に出会うためのホットな癒し空間</p>
+  <div class="ganban-studio">
+    <ul class="ganban-studio-slide anm anm--up">
+      <li><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/meieki/01.jpg?1207" alt=""></li>
+      <li><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/meieki/02.jpg" alt=""></li>
+      <li><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/meieki/03.jpg" alt=""></li>
+    </ul>
+    <h3 class="anm anm--up"><span class="en">Sola</span> 名駅スタジオ</h3>
+    <p class="more-btn anm anm--up"><a href="https://relaxation-sola.co.jp/studio/">More Info</a></p>
+  </div>
+
+  <div class="ganban-studio">
+    <ul class="ganban-studio-slide anm anm--up">
+      <li><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/sakae/01.jpg?1207" alt=""></li>
+      <li><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/sakae/02.jpg" alt=""></li>
+      <li><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/sakae/04.jpg" alt=""></li>
+    </ul>
+    <h3 class="anm anm--up"><span class="en">Sola</span> 栄スタジオ</h3>
+    <p class="more-btn anm anm--up"><a href="https://relaxation-sola.co.jp/studio/#sakae">More Info</a></p>
+  </div>
+</section>
+
+			<!-- ⑧ 4カラムセクション -->
+			<section class="pagenavi">
+  <div class="pagenavi-block anm anm--lr">
+    <a href="https://relaxation-sola.co.jp/biginners_info/">
+      <h2>はじめての方へ</h2>
+      <P>当店は<span>女性限定の岩盤ホットヨガ・ヨガスタジオ</span>です。ご利用されるほとんどの方が初心者からのスタートになりますので、安心してレッスンを受けていただけます。インストラクターがサポートしますので、ご自分のペースで受講できます。</P>
+    </a>
+  </div>
+  <div class="pagenavi-block anm anm--lr">
+    <a href="https://relaxation-sola.co.jp/price/">
+      <h2><span class="en">PRICE</span></h2>
+      <P>名古屋・栄の岩盤ホットヨガSolaの提供する様々なサービスのご利用料金はこちらのページからご確認いただけます。名古屋スタジオ、栄スタジオは共通価格です。都度払いコースもご用意しております。価格が安く人気。</P>
+    </a>
+  </div>
+  <div class="pagenavi-block anm anm--lr">
+    <a href="https://relaxation-sola.co.jp/yoga_schedule/">
+      <h2><span class="en">SCHEDULE / PROGRAM</span></h2>
+      <P>初めての方にも経験者にもご満足いただけるよう豊富に岩盤ホットヨガクラスを準備しております。<br>
+        目的や体調によってお選びください。</P>
+    </a>
+  </div>
+  <div class="pagenavi-block anm anm--lr">
+    <a href="https://relaxation-sola.co.jp/biginners_info/#ganban">
+      <h2>岩盤ホットヨガ</h2>
+      <P>エアコンや加湿器で暖めるホットヨガと違い、岩盤の上で行う岩盤ホットヨガは体にやさしく、遠赤外線とマイナスイオンにより体を芯からあたため大量の汗とともに老廃物を排出します。</P>
+    </a>
+  </div>
+</section>
+
+			<!-- ⑨ レビューセクション -->
+			<section class="review">
+  <p class="content-title anm anm--up">Review</p>
+
+  <ul class="review-list">
+    <li class="anm anm--up">
+      <div class="head">
+
+        <p class="title">総合 4　<br class="sp">
+          <span class="star">
+            <span class="on">★</span>
+            <span class="on">★</span>
+            <span class="on">★</span>
+            <span class="on">★</span>
+            <span>★</span>
+          </span>
+        </p>
+        <div class="assess">
+          <p><span>雰囲気</span><em>4</em></p>
+          <p><span>接客サービス</span><em>5</em></p>
+          <p><span>技術・仕上がり</span><em>4</em></p>
+          <p><span>メニュー・料金</span><em>4</em></p>
+        </div>
+      </div>
+      <p class="gender">女性/40代</p>
+      <div class="text">
+        <p>地下街の出口からすぐで便利だし、夜遅くのレッスンもあるので、仕事帰りにも通いやすそうです。シャワールームがたくさんあるので、争奪戦にならず、安心。</p>
+      </div>
+      <p class="date">[投稿日] 2024年2月21日</p>
+    </li>
+    <li class="anm anm--up">
+      <div class="head">
+
+        <p class="title">総合 5　<br class="sp">
+          <span class="star">
+            <span class="on">★</span>
+            <span class="on">★</span>
+            <span class="on">★</span>
+            <span class="on">★</span>
+            <span class="on">★</span>
+          </span>
+        </p>
+        <div class="assess">
+          <p><span>雰囲気</span><em>5</em></p>
+          <p><span>接客サービス</span><em>5</em></p>
+          <p><span>技術・仕上がり</span><em>5</em></p>
+          <p><span>メニュー・料金</span><em>5</em></p>
+        </div>
+      </div>
+      <p class="gender">女性/20代前半</p>
+      <div class="text">
+        <p>初めてのホットヨガでしたが、楽しんで行うことができました。<br />
+          普段運動をしないので、たくさん汗をかいてスッキリすることができたと思います。<br />
+          体験させていただきありがとうございました。</p>
+      </div>
+      <p class="date">[投稿日] 2024年2月19日</p>
+    </li>
+  </ul>
+  <p class="more-btn anm anm--up"><a href="https://relaxation-sola.co.jp/review/">ALL Review</a></p>
+</section>
+
+			<!-- レビュー → ACCESS 間CTA（FV直下CTAの流用） -->
+			<div class="between-sections-cta">
+				<a href="https://page.line.me/yvw5386a?openQrModal=true">
+					<img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
+				</a>
+			</div>
+		</main>
+
+		<!-- ⑩ フッター（ACCESS）セクション -->
+		<div class="lp-flow">
+  <a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank">
+    <figure>
+      <picture>
+        <source srcset="flow_sp.png" media="(max-width: 480px)">
+        <img src="flow_pc2.png" alt="">
+      </picture>
+    </figure>
+  </a>
+</div>
+
+<footer class="footer" id="access">
+
+  <p class="footer-title">ACCESS</p>
+
+  <ul class="footer-list">
+    <li>
+      <h2><span class="en">Sola</span> 名駅スタジオ</h2>
+      <p class="address">〒450-0002<br>
+        名古屋市中村区名駅3-23-7 VIERRA Nagoya Meieki 7F</p>
+      <p class="map"><a href="https://maps.app.goo.gl/rx6xuajEfbRoFCFJ9" target="_blank">MAP</a></p>
+      <p class="holiday">定休日　月曜日</p>
+      <div class="google"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13045.513706789143!2d136.8873501!3d35.1721195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376dc8a334961%3A0x75fea29b4700e940!2zc3RvbmUgc3BhIHN0dWRpbyBzb2xhIOWQjemnheacrOW6lw!5e0!3m2!1sja!2sjp!4v1709110811464!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </li>
+    <li>
+      <h2><span class="en">Sola</span> 栄スタジオ</h2>
+      <p class="address">〒461-0005<br>
+        名古屋市東区東桜1-10-9 栄プラザビル2F</p>
+      <p class="map"><a href="https://maps.app.goo.gl/F3WXmV3TTcTLU6T56" target="_blank">MAP</a></p>
+      <p class="holiday">定休日　金曜日</p>
+      <div class="google"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13045.431154863038!2d136.909853!3d35.172634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370d6fc6cbc25%3A0xd9118ed9d8084a07!2zc3RvbmUgc3BhIHN0dWRpbyBzb2xhIOWQjeWPpOWxi-aghOW6lw!5e0!3m2!1sja!2sjp!4v1709110454178!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </li>
+  </ul>
+  <ul class="sns">
+    <li class="sns-ig"><a href="https://www.instagram.com/sola_ganbanyoga/" target="_blank">Instagram</a></li>
+  </ul>
 </footer>
-
-
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" defer></script>
+	<script type="text/javascript" src="lib/slick/slick.min.js" defer></script>
+	<script type="text/javascript" src="js/home.js" defer></script>
 </body>
-</html>
 
+</html>
