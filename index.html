@@ -10,6 +10,22 @@
     gtag('js', new Date());
 
     gtag('config', 'G-C7KEHFP3PS');
+    gtag('config', 'AW-986646938');
+  </script>
+  <!-- Event snippet for LINE押下 conversion -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-986646938/TM9ZCJ2SpdYbEJqTvNYD',
+        'event_callback': callback
+      });
+      return false;
+    }
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
@@ -39,7 +55,7 @@
           </picture>
         </figure>
         <div class="fv-cta">
-          <a href="https://page.line.me/yvw5386a?openQrModal=true">
+          <a href="https://page.line.me/yvw5386a?openQrModal=true" onclick="return gtag_report_conversion(this.href);">
             <img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
           </a>
         </div>
@@ -108,7 +124,7 @@
         </article>
 
         <div class="between-sections-cta">
-          <a href="https://page.line.me/yvw5386a?openQrModal=true">
+          <a href="https://page.line.me/yvw5386a?openQrModal=true" onclick="return gtag_report_conversion(this.href);">
             <img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
           </a>
         </div>
@@ -119,7 +135,7 @@
         </article>
 
         <div class="between-sections-cta">
-          <a href="https://page.line.me/yvw5386a?openQrModal=true">
+          <a href="https://page.line.me/yvw5386a?openQrModal=true" onclick="return gtag_report_conversion(this.href);">
             <img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
           </a>
         </div>
@@ -155,7 +171,7 @@
             </div>
           </li>
         </ul>
-        <p class="campaign-btn_tebura"><a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/btn_linetebura.png" alt=""></a></p>
+        <p class="campaign-btn_tebura"><a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank" onclick="return gtag_report_conversion(this.href);"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/btn_linetebura.png" alt=""></a></p>
       </section>
 
       <!-- ⑤ 体験セクション -->
@@ -250,7 +266,7 @@
         </div>
         <div class="price-text">
           <p class="text anm anm--up">これらの通い放題プランが体験当日にご入会で<br><span>1ヶ月無料!!</span></p>
-          <p class="btn anm anm--up"><a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/camp_btn.png"></a></p>
+          <p class="btn anm anm--up"><a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank" onclick="return gtag_report_conversion(this.href);"><img src="https://relaxation-sola.co.jp/wp-content/themes/sola2023/images/campaign/camp_btn.png"></a></p>
         </div>
       </section>
 
@@ -373,7 +389,7 @@
 
       <!-- レビュー → ACCESS 間CTA（FV直下CTAの流用） -->
       <div class="between-sections-cta">
-        <a href="https://page.line.me/yvw5386a?openQrModal=true">
+        <a href="https://page.line.me/yvw5386a?openQrModal=true" onclick="return gtag_report_conversion(this.href);">
           <img src="cta-line-500yen.png" alt="LINEで予約する" class="fv-cta-image">
         </a>
       </div>
@@ -381,7 +397,7 @@
 
     <!-- ⑩ フッター（ACCESS）セクション -->
     <div class="lp-flow">
-      <a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank">
+      <a href="https://line.me/R/ti/p/%40yvw5386a" target="_blank" onclick="return gtag_report_conversion(this.href);">
         <figure>
           <picture>
             <source srcset="flow_sp.png" media="(max-width: 480px)">
